@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "library": "d3-org-chart@3.1.1 (UMD build) under jsdom",
+    "config": "extra-top-true-managerfirst",
+    "layout": "top",
+    "compact": true,
+    "dataset": "DATA_MANAGER_FIRST",
+    "margins": {
+      "siblingsMargin": 20,
+      "childrenMargin": 60,
+      "neighbourMargin": 80,
+      "compactMarginPair": 100,
+      "compactMarginBetween": 20
+    },
+    "linkYOffset": 30,
+    "fields": "links[].d is the final DOM d attribute of path.link (post-transition; verified token-equal to layoutBindings[layout].diagonal(n, p, m, {sy: linkYOffset}) with update()'s inputs). nodes[] are the hierarchy nodes (post-swap x/y) in breadth-first order. compactCell = attrs.compact && !!d.flexCompactDim."
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "parentId": null,
+      "depth": 0,
+      "x": 0,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null
+    },
+    {
+      "id": "mA",
+      "parentId": "root",
+      "depth": 1,
+      "x": -850,
+      "y": 210,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null
+    },
+    {
+      "id": "mB",
+      "parentId": "root",
+      "depth": 1,
+      "x": 200,
+      "y": 210,
+      "width": 360,
+      "height": 200,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null
+    },
+    {
+      "id": "mC",
+      "parentId": "root",
+      "depth": 1,
+      "x": 850,
+      "y": 210,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null
+    },
+    {
+      "id": "a1",
+      "parentId": "mA",
+      "depth": 2,
+      "x": -1060,
+      "y": 420,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 0,
+      "flexCompactDim": [
+        740,
+        530
+      ],
+      "firstCompactNode": "a1"
+    },
+    {
+      "id": "a2",
+      "parentId": "mA",
+      "depth": 2,
+      "x": -640,
+      "y": 420,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 0,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1"
+    },
+    {
+      "id": "a3",
+      "parentId": "mA",
+      "depth": 2,
+      "x": -1060,
+      "y": 590,
+      "width": 320,
+      "height": 190,
+      "compactEven": true,
+      "row": 1,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1"
+    },
+    {
+      "id": "a4",
+      "parentId": "mA",
+      "depth": 2,
+      "x": -640,
+      "y": 590,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 1,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1"
+    },
+    {
+      "id": "a5",
+      "parentId": "mA",
+      "depth": 2,
+      "x": -1060,
+      "y": 800,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 2,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1"
+    },
+    {
+      "id": "bS",
+      "parentId": "mB",
+      "depth": 2,
+      "x": -100,
+      "y": 470,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null
+    },
+    {
+      "id": "b1",
+      "parentId": "mB",
+      "depth": 2,
+      "x": 160,
+      "y": 470,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 0,
+      "flexCompactDim": [
+        600,
+        150
+      ],
+      "firstCompactNode": "b1"
+    },
+    {
+      "id": "b2",
+      "parentId": "mB",
+      "depth": 2,
+      "x": 510,
+      "y": 470,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 0,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "b1"
+    },
+    {
+      "id": "c1",
+      "parentId": "mC",
+      "depth": 2,
+      "x": 850,
+      "y": 420,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null
+    },
+    {
+      "id": "s1",
+      "parentId": "bS",
+      "depth": 3,
+      "x": -275,
+      "y": 680,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 0,
+      "flexCompactDim": [
+        600,
+        320
+      ],
+      "firstCompactNode": "s1"
+    },
+    {
+      "id": "s2",
+      "parentId": "bS",
+      "depth": 3,
+      "x": 75,
+      "y": 680,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 0,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "s1"
+    },
+    {
+      "id": "s3",
+      "parentId": "bS",
+      "depth": 3,
+      "x": -275,
+      "y": 850,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 1,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "s1"
+    }
+  ],
+  "links": [
+    {
+      "id": "mA",
+      "parentId": "root",
+      "compactCell": false,
+      "d": "\n                          M -850 210\n                          L -850 210\n                          L -850 240\n                          L -850 230\n                          C  -850 195 -850 195 -815 195\n                          L -35 195\n                          C  0  195 0  195 0 160\n                          L 0 150\n               "
+    },
+    {
+      "id": "mB",
+      "parentId": "root",
+      "compactCell": false,
+      "d": "\n                          M 200 210\n                          L 200 210\n                          L 200 240\n                          L 200 230\n                          C  200 195 200 195 165 195\n                          L 35 195\n                          C  0  195 0  195 0 160\n                          L 0 150\n               "
+    },
+    {
+      "id": "mC",
+      "parentId": "root",
+      "compactCell": false,
+      "d": "\n                          M 850 210\n                          L 850 210\n                          L 850 240\n                          L 850 230\n                          C  850 195 850 195 815 195\n                          L 35 195\n                          C  0  195 0  195 0 160\n                          L 0 150\n               "
+    },
+    {
+      "id": "a1",
+      "parentId": "mA",
+      "compactCell": true,
+      "d": "\n                          M -935 495\n                          L -850 495\n                          L -850 450\n                          L -850 405\n                          C  -850 405 -850 405 -850 405\n                          L -850 405\n                          C  -850  405 -850  405 -850 405\n                          L -850 360\n               "
+    },
+    {
+      "id": "a2",
+      "parentId": "mA",
+      "compactCell": true,
+      "d": "\n                          M -765 495\n                          L -850 495\n                          L -850 450\n                          L -850 405\n                          C  -850 405 -850 405 -850 405\n                          L -850 405\n                          C  -850  405 -850  405 -850 405\n                          L -850 360\n               "
+    },
+    {
+      "id": "a3",
+      "parentId": "mA",
+      "compactCell": true,
+      "d": "\n                          M -900 685\n                          L -850 685\n                          L -850 450\n                          L -850 405\n                          C  -850 405 -850 405 -850 405\n                          L -850 405\n                          C  -850  405 -850  405 -850 405\n                          L -850 360\n               "
+    },
+    {
+      "id": "a4",
+      "parentId": "mA",
+      "compactCell": true,
+      "d": "\n                          M -765 665\n                          L -850 665\n                          L -850 450\n                          L -850 405\n                          C  -850 405 -850 405 -850 405\n                          L -850 405\n                          C  -850  405 -850  405 -850 405\n                          L -850 360\n               "
+    },
+    {
+      "id": "a5",
+      "parentId": "mA",
+      "compactCell": true,
+      "d": "\n                          M -935 875\n                          L -850 875\n                          L -850 450\n                          L -850 405\n                          C  -850 405 -850 405 -850 405\n                          L -850 405\n                          C  -850  405 -850  405 -850 405\n                          L -850 360\n               "
+    },
+    {
+      "id": "bS",
+      "parentId": "mB",
+      "compactCell": false,
+      "d": "\n                          M -100 470\n                          L -100 470\n                          L -100 500\n                          L -100 490\n                          C  -100 455 -100 455 -65 455\n                          L 165 455\n                          C  200  455 200  455 200 420\n                          L 200 410\n               "
+    },
+    {
+      "id": "b1",
+      "parentId": "mB",
+      "compactCell": true,
+      "d": "\n                          M 285 545\n                          L 335 545\n                          L 335 500\n                          L 335 490\n                          C  335 455 335 455 300 455\n                          L 235 455\n                          C  200  455 200  455 200 420\n                          L 200 410\n               "
+    },
+    {
+      "id": "b2",
+      "parentId": "mB",
+      "compactCell": true,
+      "d": "\n                          M 385 545\n                          L 335 545\n                          L 335 500\n                          L 335 490\n                          C  335 455 335 455 300 455\n                          L 235 455\n                          C  200  455 200  455 200 420\n                          L 200 410\n               "
+    },
+    {
+      "id": "c1",
+      "parentId": "mC",
+      "compactCell": false,
+      "d": "\n                          M 850 420\n                          L 850 420\n                          L 850 450\n                          L 850 405\n                          C  850 405 850 405 850 405\n                          L 850 405\n                          C  850  405 850  405 850 405\n                          L 850 360\n               "
+    },
+    {
+      "id": "s1",
+      "parentId": "bS",
+      "compactCell": true,
+      "d": "\n                          M -150 755\n                          L -100 755\n                          L -100 710\n                          L -100 665\n                          C  -100 665 -100 665 -100 665\n                          L -100 665\n                          C  -100  665 -100  665 -100 665\n                          L -100 620\n               "
+    },
+    {
+      "id": "s2",
+      "parentId": "bS",
+      "compactCell": true,
+      "d": "\n                          M -50 755\n                          L -100 755\n                          L -100 710\n                          L -100 665\n                          C  -100 665 -100 665 -100 665\n                          L -100 665\n                          C  -100  665 -100  665 -100 665\n                          L -100 620\n               "
+    },
+    {
+      "id": "s3",
+      "parentId": "bS",
+      "compactCell": true,
+      "d": "\n                          M -150 925\n                          L -100 925\n                          L -100 710\n                          L -100 665\n                          C  -100 665 -100 665 -100 665\n                          L -100 665\n                          C  -100  665 -100  665 -100 665\n                          L -100 620\n               "
+    }
+  ]
+}

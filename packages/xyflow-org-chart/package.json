@@ -1,0 +1,69 @@
+{
+  "name": "xyflow-org-chart",
+  "version": "0.1.0",
+  "description": "d3-org-chart's layout (variable-size tidy tree + compact grids + elbow links) as a React Flow (xyflow) plugin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarlab/xyflow-org-chart.git",
+    "directory": "packages/xyflow-org-chart"
+  },
+  "homepage": "https://github.com/jarlab/xyflow-org-chart/tree/main/packages/xyflow-org-chart#readme",
+  "bugs": {
+    "url": "https://github.com/jarlab/xyflow-org-chart/issues"
+  },
+  "keywords": [
+    "react-flow",
+    "xyflow",
+    "org-chart",
+    "organization-chart",
+    "d3-org-chart",
+    "tree-layout",
+    "flextree",
+    "react"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./core": {
+      "import": {
+        "types": "./dist/core.d.ts",
+        "default": "./dist/core.js"
+      },
+      "require": {
+        "types": "./dist/core.d.cts",
+        "default": "./dist/core.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "@xyflow/react": ">=12.3.0 <13",
+    "react": ">=18",
+    "react-dom": ">=18"
+  }
+}
