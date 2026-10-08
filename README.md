@@ -6,6 +6,7 @@ The layout algorithm of [d3-org-chart](https://github.com/bumbeishvili/org-chart
 |---|---|
 | [`packages/xyflow-org-chart`](packages/xyflow-org-chart) | The library, published as `xyflow-org-chart`. It has a framework-free layout core and a React Flow layer: `useOrgChart`, `<OrgChart>`, a custom edge, handles, default nodes and viewport helpers. See its [README](packages/xyflow-org-chart/README.md). |
 | [`examples/demo`](examples/demo) | A Vite demo app with a 99-person company. Its controls cover orientation, compact mode, link offset, node style, measure mode, paging, animation and expand/collapse/fit. It also has a side-by-side comparison with the real d3-org-chart. |
+| [`docs/architecture.md`](docs/architecture.md) | How the repo and the package are structured: core vs React layer, the data → layout → React Flow pipeline, animation and handles, and how correctness is checked against the real library. |
 | [`docs/d3-org-chart/layout-algorithm.md`](docs/d3-org-chart/layout-algorithm.md) | A study of how d3-org-chart lays out a chart: flextree, compact mode, orientations, links and state. §10 is the React Flow porting guide. |
 | [`docs/d3-org-chart/lab`](docs/d3-org-chart/lab) | A Node lab that runs the real d3-org-chart under jsdom and records the golden fixtures the tests compare against. It is a separate npm project; see its [README](docs/d3-org-chart/lab/README.md). |
 
