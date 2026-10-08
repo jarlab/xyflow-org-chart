@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "library": "d3-org-chart@3.1.1 (UMD build) under jsdom",
+    "layout": "left",
+    "compact": true,
+    "margins": {
+      "siblingsMargin": 20,
+      "childrenMargin": 60,
+      "neighbourMargin": 80,
+      "compactMarginPair": 100,
+      "compactMarginBetween": 20
+    },
+    "defaultNodeSize": [
+      250,
+      150
+    ],
+    "centerGTransform": "translate(40,400) scale(1)",
+    "visibleNodeCount": 16,
+    "domNodeCount": 16,
+    "fields": "x,y are the values d3-org-chart stores on the hierarchy node after update() (post flextree, post calculateCompactFlexPositions, post layoutBindings[layout].swap). box = DOM translate() of g.node + rect width/height.",
+    "dataset": "DATA"
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "parentId": null,
+      "depth": 0,
+      "x": 0,
+      "y": 0,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null,
+      "box": {
+        "left": 0,
+        "top": -75,
+        "right": 250,
+        "bottom": 75
+      },
+      "domTransform": "translate(0, -75)"
+    },
+    {
+      "id": "mA",
+      "parentId": "root",
+      "depth": 1,
+      "x": 310,
+      "y": -527.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null,
+      "box": {
+        "left": 310,
+        "top": -602.5,
+        "right": 560,
+        "bottom": -452.5
+      },
+      "domTransform": "translate(310, -602.5)"
+    },
+    {
+      "id": "mB",
+      "parentId": "root",
+      "depth": 1,
+      "x": 310,
+      "y": 77.5,
+      "width": 360,
+      "height": 200,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null,
+      "box": {
+        "left": 310,
+        "top": -22.5,
+        "right": 670,
+        "bottom": 177.5
+      },
+      "domTransform": "translate(310, -22.5)"
+    },
+    {
+      "id": "mC",
+      "parentId": "root",
+      "depth": 1,
+      "x": 310,
+      "y": 527.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null,
+      "box": {
+        "left": 310,
+        "top": 452.5,
+        "right": 560,
+        "bottom": 602.5
+      },
+      "domTransform": "translate(310, 452.5)"
+    },
+    {
+      "id": "a1",
+      "parentId": "mA",
+      "depth": 2,
+      "x": 620,
+      "y": -672.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 0,
+      "flexCompactDim": [
+        480,
+        860
+      ],
+      "firstCompactNode": "a1",
+      "box": {
+        "left": 620,
+        "top": -747.5,
+        "right": 870,
+        "bottom": -597.5
+      },
+      "domTransform": "translate(620, -747.5)"
+    },
+    {
+      "id": "a2",
+      "parentId": "mA",
+      "depth": 2,
+      "x": 620,
+      "y": -382.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 0,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1",
+      "box": {
+        "left": 620,
+        "top": -457.5,
+        "right": 870,
+        "bottom": -307.5
+      },
+      "domTransform": "translate(620, -457.5)"
+    },
+    {
+      "id": "a3",
+      "parentId": "mA",
+      "depth": 2,
+      "x": 890,
+      "y": -672.5,
+      "width": 320,
+      "height": 190,
+      "compactEven": true,
+      "row": 1,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1",
+      "box": {
+        "left": 890,
+        "top": -767.5,
+        "right": 1210,
+        "bottom": -577.5
+      },
+      "domTransform": "translate(890, -767.5)"
+    },
+    {
+      "id": "a4",
+      "parentId": "mA",
+      "depth": 2,
+      "x": 890,
+      "y": -382.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 1,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1",
+      "box": {
+        "left": 890,
+        "top": -457.5,
+        "right": 1140,
+        "bottom": -307.5
+      },
+      "domTransform": "translate(890, -457.5)"
+    },
+    {
+      "id": "a5",
+      "parentId": "mA",
+      "depth": 2,
+      "x": 1230,
+      "y": -672.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 2,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "a1",
+      "box": {
+        "left": 1230,
+        "top": -747.5,
+        "right": 1480,
+        "bottom": -597.5
+      },
+      "domTransform": "translate(1230, -747.5)"
+    },
+    {
+      "id": "b1",
+      "parentId": "mB",
+      "depth": 2,
+      "x": 730,
+      "y": -132.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 0,
+      "flexCompactDim": [
+        400,
+        250
+      ],
+      "firstCompactNode": "b1",
+      "box": {
+        "left": 730,
+        "top": -207.5,
+        "right": 980,
+        "bottom": -57.5
+      },
+      "domTransform": "translate(730, -207.5)"
+    },
+    {
+      "id": "b2",
+      "parentId": "mB",
+      "depth": 2,
+      "x": 730,
+      "y": 117.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 0,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "b1",
+      "box": {
+        "left": 730,
+        "top": 42.5,
+        "right": 980,
+        "bottom": 192.5
+      },
+      "domTransform": "translate(730, 42.5)"
+    },
+    {
+      "id": "bS",
+      "parentId": "mB",
+      "depth": 2,
+      "x": 730,
+      "y": 277.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null,
+      "box": {
+        "left": 730,
+        "top": 202.5,
+        "right": 980,
+        "bottom": 352.5
+      },
+      "domTransform": "translate(730, 202.5)"
+    },
+    {
+      "id": "c1",
+      "parentId": "mC",
+      "depth": 2,
+      "x": 620,
+      "y": 527.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": null,
+      "row": null,
+      "flexCompactDim": null,
+      "firstCompactNode": null,
+      "box": {
+        "left": 620,
+        "top": 452.5,
+        "right": 870,
+        "bottom": 602.5
+      },
+      "domTransform": "translate(620, 452.5)"
+    },
+    {
+      "id": "s1",
+      "parentId": "bS",
+      "depth": 3,
+      "x": 1040,
+      "y": 152.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 0,
+      "flexCompactDim": [
+        400,
+        520
+      ],
+      "firstCompactNode": "s1",
+      "box": {
+        "left": 1040,
+        "top": 77.5,
+        "right": 1290,
+        "bottom": 227.5
+      },
+      "domTransform": "translate(1040, 77.5)"
+    },
+    {
+      "id": "s2",
+      "parentId": "bS",
+      "depth": 3,
+      "x": 1040,
+      "y": 402.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": false,
+      "row": 0,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "s1",
+      "box": {
+        "left": 1040,
+        "top": 327.5,
+        "right": 1290,
+        "bottom": 477.5
+      },
+      "domTransform": "translate(1040, 327.5)"
+    },
+    {
+      "id": "s3",
+      "parentId": "bS",
+      "depth": 3,
+      "x": 1310,
+      "y": 152.5,
+      "width": 250,
+      "height": 150,
+      "compactEven": true,
+      "row": 1,
+      "flexCompactDim": [
+        0,
+        0
+      ],
+      "firstCompactNode": "s1",
+      "box": {
+        "left": 1310,
+        "top": 77.5,
+        "right": 1560,
+        "bottom": 227.5
+      },
+      "domTransform": "translate(1310, 77.5)"
+    }
+  ]
+}

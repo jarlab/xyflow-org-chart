@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "xyflow-org-chart": ["../../packages/xyflow-org-chart/src/index.ts"],
+      "xyflow-org-chart/core": ["../../packages/xyflow-org-chart/src/core-entry.ts"]
+    }
+  },
+  "include": ["src"]
+}
